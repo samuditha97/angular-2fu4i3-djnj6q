@@ -1,0 +1,20 @@
+<div class="control-section">
+  <div class="content-wrapper">
+    <button (click)="globalChange()">Global Change</button>
+    <button (click)="specificChange()">Specific Change</button>
+    <button (click)="addFormFields()">add Form fields Change</button>
+    <button (click)="importFormFields()">import fields Change</button>
+    <button (click)="addFormFieldSValue()">addFormFieldSValue</button>
+    <button (click)="deleteFormFileds()">Delete Form Fieleds</button>
+    <button (click)="setLocalStoirage()">Set local storage Fieleds</button>
+    <button (click)="loadLoacalStorageValue()">loadLoacalStorageValue</button>
+    <button (click)="SetaNnotation()">SetaNnotation</button>
+    <ejs-pdfviewer
+      [enableFormDesignerToolbar]="true"
+      id="pdfViewer"
+      [serviceUrl]="service"
+      [documentPath]="document"
+      style="height:640px;display:block"
+    ></ejs-pdfviewer>
+  </div>
+</div>
